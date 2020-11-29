@@ -1,8 +1,10 @@
 spring:
   datasource:
+    driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/fornecedor
     password: root
     username: root
+    
     
   jpa:
     hibernate:
